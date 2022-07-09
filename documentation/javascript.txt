@@ -1,0 +1,11 @@
+Sources: Youtube: Bro Code https://www.youtube.com/watch?v=8dWL3wF_OMw
+
+Javascript is a webbased programming language which is used to:
+-> add interactive behavior to webpages
+-> build web and mobile applications
+-> create command line tools
+-> develop games
+
+Used web browser: Firefox
+Used text editor: VSCode
+
