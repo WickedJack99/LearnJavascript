@@ -111,4 +111,39 @@ console.log(students);
 //--------------------------------------------------------------------------------------------------------------
 
 //8. Accept user input
-//https://youtu.be/8dWL3wF_OMw?t=1288
+//8.1 Easy way via prompt. Not very practical. Care that user input is at string datatype,
+//so typeconversion may be needed.
+//let username = window.prompt("What's your name?");
+//console.log(username);
+//8.2 
+let username;
+document.getElementById("myButton").onclick = function() {
+    username = document.getElementById("myText").value;
+    console.log(username);
+    document.getElementById("myLabel").innerHTML = username;
+}
+//--------------------------------------------------------------------------------------------------------------
+
+//9. Typeconversion
+//Change the datatype of a value to another. (strings, numbers, boolean)
+let age3 = "23";
+console.log(typeof age3);
+age3 = Number(age3);
+age3++;
+console.log(age3);
+console.log(typeof age3);
+
+let y = String(3.14);
+console.log(y);
+console.log(typeof y);
+
+//Useful to check if user entered some required input.
+let z = Boolean(""); //empty string is converted to false
+console.log(z);
+console.log(typeof z);
+z = Boolean("z"); //not empty string is converted to true
+console.log(z);
+console.log(typeof z);
+//--------------------------------------------------------------------------------------------------------------
+//10. const keyword
+//https://youtu.be/8dWL3wF_OMw?t=1812
