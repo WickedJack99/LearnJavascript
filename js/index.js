@@ -145,5 +145,58 @@ z = Boolean("z"); //not empty string is converted to true
 console.log(z);
 console.log(typeof z);
 //--------------------------------------------------------------------------------------------------------------
+
 //10. const keyword
-//https://youtu.be/8dWL3wF_OMw?t=1812
+//A variable that can't be changed.
+//Adds data security.
+const pi = 3.14159;
+let radius = 1;
+let circumference;
+
+//radius = window.prompt("Enter the radius of the circle.");
+radius = Number(radius);
+circumference = 2 * pi * radius;
+console.log("The circumference is: " + circumference + " for radius: " + radius);
+//--------------------------------------------------------------------------------------------------------------
+
+//11. Math library
+//Provides basic mathmatical functions for calculation and some built in constants.
+//Functions
+let x = 2.9;
+x = Math.round(x); //rounds a number up or down
+console.log(x);
+
+x = Math.floor(7.9); //round number always down
+console.log(x);
+
+x = Math.ceil(7.1); //round number always up
+console.log(x);
+
+x = Math.pow(2,8); //pow(base, exponent) gives base to the power of exponent value
+console.log(x);
+
+x = Math.sqrt(9); //get squareroot of number
+console.log(x);
+
+x = Math.abs(-3); //returns absolute value from 0 (absolute value is always positive)
+console.log(x);
+
+let c = 5;
+let d = 9;
+let max;
+let min;
+max = Math.max(c,d); //get maximum out of array with numbers
+min = Math.min(c,d); //get minimum out of array with numbers
+console.log(max);
+console.log(min);
+
+//Constants
+x = Math.PI; //pi
+console.log(x);
+x = Math.E; //e
+console.log(x);
+x = Math.SQRT2; //sqrt(2)
+console.log(x);
+//--------------------------------------------------------------------------------------------------------------
+
+//https://youtu.be/8dWL3wF_OMw?t=2220
